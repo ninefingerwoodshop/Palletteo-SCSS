@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-clone": "^2.0.1",
+    "gulp-sass": "^6.0.1",
+    "merge-stream": "^2.0.0",
+    "sass": "^1.89.0"
+  },
+  "scripts": {
+    "gulp": "gulp",
+    "watch": "gulp"
+  }
+}

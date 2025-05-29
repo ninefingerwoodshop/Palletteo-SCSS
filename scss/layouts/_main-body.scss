@@ -1,0 +1,20 @@
+.app-layout {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "left-nav main-content  right-nav";
+}
+
+.left-nav {
+  grid-area: left-nav;
+}
+
+.main-content {
+  grid-area: main-content;
+}
+
+.right-nav {
+  grid-area: right-nav;
+}
